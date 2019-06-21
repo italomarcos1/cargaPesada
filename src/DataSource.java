@@ -18,9 +18,9 @@ public class DataSource{
             port = 3306;
             database = "TRANSPORTADORA";
             username = "root";
-            password = "bd2019";
+            password = "bd201901";
 
-            String url = "jdbc:mysql://"+hostname+":"+port+"/"+database;
+            String url = "jdbc:mysql://"+hostname+":"+port+"/"+database+"?autoReconnect=true&useSSL=false";
 
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
             connection = DriverManager.getConnection(url, username, password);
