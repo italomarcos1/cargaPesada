@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="068e7fb2-4c48-4e57-9f2c-f1075a9056bf">
-        <schema name="TRANSPORTADORA" object-types="function, procedure, view, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="068e7fb2-4c48-4e57-9f2c-f1075a9056bf">
@@ -71,8 +67,8 @@
           <config-type value="BASIC" />
           <database-version value="5.7" />
           <driver-source value="BUILTIN" />
-          <driver-library value="" />
-          <driver value="" />
+          <driver-library value="$PROJECT_DIR$/../Untitled/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar" />
+          <driver value="com.mysql.fabric.jdbc.FabricMySQLDriver" />
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="3306" />
