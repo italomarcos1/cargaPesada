@@ -1,19 +1,24 @@
 package model;
 
 public class Cliente {
-    private int idcliente;
+
+    private String idcliente;
     private String nome;
     private String telefone;
-    private String id_tipo_cliente;
-    private String local_uf;
-    private String local_ceṕ;
+    private String uf;
+    private String cep;
+    private String cidade;
+    private String bairro;
+    private String rua;
+    private int numero;
+    private String compl;
 
 
-    public int getIdcliente() {
+    public String getIdcliente() {
         return idcliente;
     }
 
-    public void setIdcliente(int idcliente) {
+    public void setIdcliente(String idcliente) {
         this.idcliente = idcliente;
     }
 
@@ -33,27 +38,59 @@ public class Cliente {
         this.telefone = telefone;
     }
 
-    public String getId_tipo_cliente() {
-        return id_tipo_cliente;
+    public String getUf() {
+        return uf;
     }
 
-    public void setId_tipo_cliente(String id_tipo_cliente) {
-        this.id_tipo_cliente = id_tipo_cliente;
+    public void setUf(String uf) {
+        this.uf = uf;
     }
 
-    public String getLocal_uf() {
-        return local_uf;
+    public String getCep() {
+        return cep;
     }
 
-    public void setLocal_uf(String local_uf) {
-        this.local_uf = local_uf;
+    public void setCep(String cep) {
+        this.cep = cep;
     }
 
-    public String getLocal_ceṕ() {
-        return local_ceṕ;
+    public String getCidade() {
+        return cidade;
     }
 
-    public void setLocal_ceṕ(String local_ceṕ) {
-        this.local_ceṕ = local_ceṕ;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public String getRua() {
+        return rua;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public String getCompl() {
+        return compl;
+    }
+
+    public void setCompl(String compl) {
+        this.compl = compl;
     }
 }
